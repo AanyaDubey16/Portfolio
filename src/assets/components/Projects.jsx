@@ -2,6 +2,8 @@ import weather from "./images/weather.png";
 import snowy from "./images/snowy.png";
 import travel from "./images/travel.png";
 import task from "./images/task.png";
+import dashboard from "./images/dashboard.png";
+import elementum from "./images/elementum.png";
 
 function Projects() {
   const projects = [
@@ -13,6 +15,7 @@ function Projects() {
       live: "https://weather-app-pi-taupe.vercel.app/",
       github: "https://github.com/AanyaDubey16/weather-app",
     },
+
     {
       title: "Snowy Dash",
       image: snowy,
@@ -21,6 +24,7 @@ function Projects() {
       live: "https://snowy-dash-game.vercel.app/",
       github: "https://github.com/AanyaDubey16/Snowy-Dash-Game",
     },
+
     {
       title: "Tours & Travel Website",
       image: travel,
@@ -29,6 +33,7 @@ function Projects() {
       live: "https://tour-and-travel-olive-gamma.vercel.app/",
       github: "https://github.com/AanyaDubey16/tour-and-travel",
     },
+
     {
       title: "Task Manager",
       image: task,
@@ -37,6 +42,25 @@ function Projects() {
       live: "https://taskmanager-50elnsfn0-aanya-s-projects4.vercel.app/",
       github: "https://github.com/AanyaDubey16/Task-Manager",
     },
+
+     {
+      title: "Dashboard",
+      image: dashboard,
+      description:
+        "Built with Next.js, TypeScript, Tailwind CSS, Framer Motion, and Supabase.",
+      live: "https://dashboard-beta-one-61.vercel.app/",
+      github: "https://github.com/AanyaDubey16/Dashboard",
+    },
+
+   {
+  title: "Elementum Agency Landing Page",
+  image: elementum,
+  description:
+    "Modern agency landing page built with React and Tailwind CSS, featuring animations, responsive design and smooth navigation.",
+  live: "https://elementum-agency-landing-page.vercel.app/",
+  github: "https://github.com/AanyaDubey16/elementum-agency-landing-page",
+}
+
   ];
 
   return (
